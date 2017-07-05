@@ -17,6 +17,7 @@
 		7C630FC51F0D272700D182BE /* TagData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C630FC41F0D272700D182BE /* TagData.swift */; };
 		7C630FC71F0D276E00D182BE /* PersonalityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C630FC61F0D276E00D182BE /* PersonalityData.swift */; };
 		7C630FC91F0D27B800D182BE /* SourceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C630FC81F0D27B800D182BE /* SourceData.swift */; };
+		7C630FCB1F0D366300D182BE /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C630FCA1F0D366300D182BE /* JSON.swift */; };
 		9E6BA82D9224CBDA7F35D6B6 /* Pods_Macster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC05942B8187834B0EB9DFE /* Pods_Macster.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		7C630FC41F0D272700D182BE /* TagData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagData.swift; sourceTree = "<group>"; };
 		7C630FC61F0D276E00D182BE /* PersonalityData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalityData.swift; sourceTree = "<group>"; };
 		7C630FC81F0D27B800D182BE /* SourceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceData.swift; sourceTree = "<group>"; };
+		7C630FCA1F0D366300D182BE /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		96C6D5C6CF710B449C407260 /* Pods-Macster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Macster/Pods-Macster.release.xcconfig"; sourceTree = "<group>"; };
 		9AC05942B8187834B0EB9DFE /* Pods_Macster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Macster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 			children = (
 				7C630FAE1F0CDBF500D182BE /* AppDelegate.swift */,
 				7C630FB01F0CDBF500D182BE /* ViewController.swift */,
+				7C630FCA1F0D366300D182BE /* JSON.swift */,
 				7C630FB21F0CDBF500D182BE /* Main.storyboard */,
 				7C630FB51F0CDBF500D182BE /* Assets.xcassets */,
 				7C630FB71F0CDBF500D182BE /* LaunchScreen.storyboard */,
@@ -234,6 +237,7 @@
 				7C630FC11F0D236B00D182BE /* ArticleData.swift in Sources */,
 				7C630FAF1F0CDBF500D182BE /* AppDelegate.swift in Sources */,
 				7C630FC71F0D276E00D182BE /* PersonalityData.swift in Sources */,
+				7C630FCB1F0D366300D182BE /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

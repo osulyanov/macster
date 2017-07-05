@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 import RealmSwift
 
 class ArticleData: Object {
@@ -15,8 +16,8 @@ class ArticleData: Object {
     dynamic var title = ""
     dynamic var pubType = ""
     dynamic var likesCount = 0
-    dynamic var commentsCoumt = 0
-    dynamic var publishedAt = NSDate(timeIntervalSince1970: 1)
+    dynamic var commentsCount = 0
+    dynamic var publishAt = NSDate(timeIntervalSince1970: 1)
     dynamic var icon: String? = nil
     dynamic var announcementInside: String? = nil
     dynamic var image: String? = nil
@@ -43,4 +44,14 @@ class ArticleData: Object {
     let tags = List<TagData>()
     let people = List<PersonalityData>()
     let sources = List<SourceData>()
+    
+    func assignFromJSON(data: JSON) -> Void {
+        id = data["id"].intValue
+        keyword = data["keyword"].stringValue
+        title = data["title"].stringValue
+        pubType = data["pub_type"].stringValue
+        publishAt = data["publish_at"].dateValue!
+        likesCount = data["likes_count"].intValue
+        commentsCount = data["comments_count"].intValue
+    }
 }
