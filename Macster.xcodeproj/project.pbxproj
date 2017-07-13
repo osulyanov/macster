@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C591BC21F13C12F00B08FDA /* ManagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C591BC11F13C12F00B08FDA /* ManagerData.swift */; };
+		7C591BC41F13C3F800B08FDA /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C591BC31F13C3F800B08FDA /* ArticleViewController.swift */; };
 		7C630FAF1F0CDBF500D182BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C630FAE1F0CDBF500D182BE /* AppDelegate.swift */; };
 		7C630FB11F0CDBF500D182BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C630FB01F0CDBF500D182BE /* ViewController.swift */; };
 		7C630FB41F0CDBF500D182BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C630FB21F0CDBF500D182BE /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		436C6E035A9A3A41EB3F26C3 /* Pods-Macster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Macster/Pods-Macster.debug.xcconfig"; sourceTree = "<group>"; };
+		7C591BC11F13C12F00B08FDA /* ManagerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerData.swift; sourceTree = "<group>"; };
+		7C591BC31F13C3F800B08FDA /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		7C630FAB1F0CDBF500D182BE /* Macster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C630FAE1F0CDBF500D182BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C630FB01F0CDBF500D182BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 				7C630FB01F0CDBF500D182BE /* ViewController.swift */,
 				7C630FCA1F0D366300D182BE /* JSON.swift */,
 				7C630FB21F0CDBF500D182BE /* Main.storyboard */,
+				7C591BC31F13C3F800B08FDA /* ArticleViewController.swift */,
 				7C630FB51F0CDBF500D182BE /* Assets.xcassets */,
 				7C630FB71F0CDBF500D182BE /* LaunchScreen.storyboard */,
 				7C630FBA1F0CDBF500D182BE /* Info.plist */,
@@ -85,6 +90,7 @@
 				7C630FC61F0D276E00D182BE /* PersonalityData.swift */,
 				7C630FC41F0D272700D182BE /* TagData.swift */,
 				7C630FC21F0D261A00D182BE /* AuthorData.swift */,
+				7C591BC11F13C12F00B08FDA /* ManagerData.swift */,
 			);
 			path = Macster;
 			sourceTree = "<group>";
@@ -231,7 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C630FC91F0D27B800D182BE /* SourceData.swift in Sources */,
+				7C591BC41F13C3F800B08FDA /* ArticleViewController.swift in Sources */,
 				7C630FC31F0D261B00D182BE /* AuthorData.swift in Sources */,
+				7C591BC21F13C12F00B08FDA /* ManagerData.swift in Sources */,
 				7C630FC51F0D272700D182BE /* TagData.swift in Sources */,
 				7C630FB11F0CDBF500D182BE /* ViewController.swift in Sources */,
 				7C630FC11F0D236B00D182BE /* ArticleData.swift in Sources */,
