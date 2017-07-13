@@ -45,6 +45,10 @@ class ArticleData: Object {
     let people = List<PersonalityData>()
     let sources = List<SourceData>()
     
+    override static func primaryKey() -> String {
+        return "id"
+    }
+    
     func assignFromJSON(data: JSON) -> Void {
         id = data["id"].intValue
         keyword = data["keyword"].stringValue

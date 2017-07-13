@@ -11,4 +11,8 @@ import RealmSwift
 
 class PersonalityData: Object {
     dynamic var name = ""
+    
+    override static func primaryKey() -> String {
+        return "name"
+    }
 }

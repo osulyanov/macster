@@ -11,4 +11,8 @@ import RealmSwift
 
 class AuthorData: Object {
     dynamic var name = ""
+    
+    override static func primaryKey() -> String {
+        return "name"
+    }
 }
